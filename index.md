@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[Adversarial Machine Learning Library](adverarial-library).
+[Adversarial Machine Learning Library](adversarial-library).
