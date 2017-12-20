@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Autontbot: autonomous asset tracking robot
+title: Autonobot: Autonomous Asset-Tracking Robot
 permalink: /research/autonobot/
 ---
 
