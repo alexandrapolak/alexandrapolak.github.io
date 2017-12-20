@@ -6,5 +6,5 @@ permalink: /about/
 
 {% include image.html url="/images/octojekyll.png" caption="Octojekyll." width=300 align="right" %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit mattis nulla eu cursus. Fusce finibus, orci sit amet tincidunt fermentum, risus ante pharetra nisi, eget tempus tellus tellus ut est. Nunc tempus cursus arcu mattis ultricies. Cras volutpat purus et lectus facilisis tempor. Suspendisse at lorem feugiat, feugiat massa vel, scelerisque dolor. Proin justo nisl, mattis eu sapien in, efficitur fringilla nulla. Phasellus placerat, lacus in venenatis tristique, risus dolor eleifend felis, vitae finibus augue nibh ut libero. Morbi sit amet tincidunt lorem.
+Software developer living in Seattle. I grew up in Boston and graduated from Vanderbilt class of 2016. Originally wanted to work in proof-based mathematics, but when the math factory down the street from me shut down, I decided to try coding. Graduated with a Bachelor of Engineering in Computer Engineering, with a second major in math. In case the factory ever re-opens. Main focus is on Machine Learning and Compuational Learning Theory, with applications in Game Theory and Bioinformatics. Currently working for AWS, where I do software backed networking for elastic cloud computing. 
 
