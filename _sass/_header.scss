@@ -2,9 +2,11 @@
  * Site header
  */
 .site-header {
-    border-top: 0px solid $grey-color-dark;
-	border-bottom: 4px solid $umass-grey;
-    min-height: 56px;
+    border-top: 15px solid $background-color;
+	border-bottom: 0px solid $umass-grey;
+    border-left: 20px solid $background-color;
+    border-right: 20px solid $background-color;
+    min-height: 64px;
     background: $umass-red;
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -12,18 +14,20 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 34px;
 /* 		margin-top: 15px;
     line-height: 40px; */
-    letter-spacing: -1px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    top: 5px;
+    left: 5px;
+    position: relative;
     float: left;
     font-weight: 500;
-		font-family: 'Titillium Web', sans-serif;
-    color: #ffffff;
+		font-family: 'Lato', sans-serif;
+    color: #c2b280;
     &,
     &:visited {
-        color: #ffffff;
+        color: #c2b280;
     }
     &,
     &:hover {
@@ -37,7 +41,7 @@
 }
 
 .site-nav ul li a {
-	color: #fff;
+	color: #373737;
 }
 
 .site-nav ul {
@@ -51,6 +55,7 @@
 	font-weight: 600;
 	margin: 0;
 	padding: 0;
+    color: #373737;
 	list-style-type: none;
 	text-transform: uppercase;
 		font-family: 'Titillium Web', sans-serif;
@@ -66,11 +71,12 @@
 	padding: 0 0 2px 0;
 	position: relative;
 	vertical-align: top;
+    color: #373737;
 }
 
 .site-nav a {
 	display: block;
-        color: #ffffff;
+        color: #373737;
 }
 
 /* Sub Menu */
@@ -105,14 +111,14 @@ color: #522d80;
 
 
 .sub-menu {
-	border: 3px solid transparent;
-	border-top: 0;
+	border: 1px solid transparent;
+	border-top: 1px;
 	/* bg and border colors set in header */
-	box-shadow: 0 2px 2px rgba(0,0,0,0.4);
-	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.4);
-	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+	box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+	-moz-box-shadow: 10px 2px 20px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 10px 2px 20px rgba(0,0,0,0.1);
 	display: none;
-	right: -10px;
+	right: -200px;
 	padding: 4px 0 3px 0;
 	position: absolute;
 	text-align: left;
@@ -156,13 +162,13 @@ z-index:999;
     }
 
     .page-link {
-        color: #ffffff;
+        color: #373737;
     background: $umass-red;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 15px;
         }
     }
 

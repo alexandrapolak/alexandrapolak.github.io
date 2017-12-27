@@ -7,16 +7,17 @@
 - title: "Research"
   href: "/research/"
   subcategories:
-    - subtitle: "auction price prediction"
+    - subtitle: "eBay Auction Price Prediction"
       subhref: "/research/auction-price-prediction/"
-    - subtitle: "adversarial ML library"
+    - subtitle: "Adversarial Machine Learning Library"
       subhref: "/research/adversarial-library/"
-    - subtitle: "autonomous asset-tracking robot"
+    - subtitle: "Autonobot - Autonomous Asset-Tracking Robot"
       subhref: "/research/autonobot/"
 
 - title: "Papers"
   href: "/papers/"
-    - subtitle: "median stable matching"
+  subcategories:
+    - subtitle: "Median Stable Matching"
       subhref: "/papers/stable-matching/"
 
 - title: "Blog"
